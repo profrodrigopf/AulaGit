@@ -8,6 +8,7 @@ public class Programa {
     public static void main(String[] args) {
 
         //Teste de alteração
+        //Alterado no Netbeans 8.2
         
         Gerente g = new Gerente();
         g.criarPessoa();
