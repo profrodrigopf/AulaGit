@@ -4,7 +4,7 @@ import com.mycompany.aulanova.Cliente;
 import com.mycompany.interfaces.ServicosBancarios;
 import java.util.Scanner;
 
-public abstract class Conta  implements ServicosBancarios{
+public abstract class Conta implements ServicosBancarios{
     
     private int agencia;
     private int contaCorrente;
@@ -14,6 +14,10 @@ public abstract class Conta  implements ServicosBancarios{
     private Scanner sc = new Scanner(System.in);
     
     public abstract void criarConta(Cliente titular);
+    
+    public void testeAula(){
+        this.agencia = 123;
+    }
 
     public int getAgencia() {
         return agencia;

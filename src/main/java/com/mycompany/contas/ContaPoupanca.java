@@ -1,6 +1,7 @@
 package com.mycompany.contas;
 
 import com.mycompany.aulanova.Cliente;
+import com.mycompany.interfaces.ServicosBancarios;
 
 public class ContaPoupanca extends Conta{
     

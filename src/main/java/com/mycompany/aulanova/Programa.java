@@ -26,6 +26,7 @@ public class Programa {
         
         
         ContaPremium cp = new ContaPremium();
+        cp.setAgencia(123);
         cp.criarConta(c);
         cp.depositar(200.0);
         cp.transferir(poupanca, 150.0);
